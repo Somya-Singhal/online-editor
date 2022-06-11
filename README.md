@@ -28,27 +28,51 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### About Project
 
-Create an online code editor for HTML, CSS, JS code snippets using only HTML, CSS, and
-React. The code editor’s functionality will be similar to that of codpen.io.Online code editor is a tool that resides on a remote server and is accessible via browsers.
-For any developer, be it amateur or professional, often the liberty of using a local code
-editor may be unavailable. As online code editors are fast, efficient, and greatly popular, it is
-a familiar tool among developers. If you have used one, ever wondered how it can be made?
-This module will guide you through the process that can be followed to build your own
-code editor for HTML, CSS, JS code snippets.
+An online code editor for HTML, CSS, JS code snippets using only HTML, CSS, and
+React. The code editor’s functionality is similar to that of codpen.io. It provides a liberty of using a local code editor. It is fast, efficient, and most important thing is it is very much uselful for developers.
+
+### Project Stages
+
+```mermaid
+flowchart LR
+   A["Create site layout(HTML,React)"] -->B["Implementing functionalities(React)"] -->C["Styling web application(CSS)"] -->D["Taking care of exceptions and further development(react)"] -->E["Publish work on Github"] -->F[(Deploying app on hosting database Heroku)]
+
+```
 
 ### High level Approach
 High-Level Approach
 This module consists of the following milestones:
->> Creating the structural aspect of code editor using HTML, CSS
->> Implementation of core functionalities and other frontend features using React
->> Publish to GitHub and finally host your deployed code editor.
+- Creating the structural aspect of code editor using HTML, CSS
+- Implementation of core functionalities and other frontend features using React
+- Publish to GitHub and finally host your deployed code editor.
 
 ### Applications
 
 Some of the applications of online code editors are-
->> For online interviews/hiring: With online code editors, you can do interviews with
+- For online interviews/hiring: With online code editors, you can do interviews with
 ease. It helps to see candidates’ approach towards solutions and work with code.
->> Prototyping: You can validate your ideas and get instant feedback from users as
+- Prototyping: You can validate your ideas and get instant feedback from users as
 sharing and collaboration options are available and save you from the pain of local
 setup
 
+### Features
+- Auto Completion
+- Toggle Comment
+- Searching and replacing words
+- Jump to line
+- Syntax Highlighting
+- Displaying line numbers
+- AutoSave Enabled
+- Refresh option
+- Toggle window
+- Easy to use
+
+### Demo
+
+
+https://user-images.githubusercontent.com/88088520/173194823-aa07fc34-cfb5-4c77-a3dc-1d9b23d53c9a.mp4
+
+
+
+### Deployment Link
+https://code-editorv1.herokuapp.com/
